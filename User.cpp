@@ -7,10 +7,11 @@ using namespace std;
 User::User(const string& full_name, const string& email,
            const vector<string>& watch_history)
 {
-    // Replace this line with correct code.
+           
     m_name = full_name;
     m_email = email;
     m_watch_history = watch_history;
+           
 }
 
 
